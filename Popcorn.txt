@@ -1,0 +1,34 @@
+Brand	Microwave	Time	%Unpopped	PopRate	
+Fastco	Lounge	105	17.40	82.6000	
+Fastco	Lounge	105	12.50	87.5000	
+Fastco	Lounge	105	24.70	75.3000	
+Fastco	Lounge	105	19.80	80.2000	
+Fastco	Room	105	26.20	73.8000	
+Fastco	Room	105	22.40	77.6000	
+Fastco	Room	105	11.50	88.5000	
+Fastco	Room	105	16.44	83.5554	
+Fastco	Lounge	135	18.93	81.0667	
+Fastco	Lounge	135	9.20	90.8000	
+Fastco	Lounge	135	15.94	84.0557	
+Fastco	Lounge	135	28.50	71.5000	
+Fastco	Room	135	18.66	81.3438	
+Fastco	Room	135	7.40	92.6000	
+Fastco	Room	135	25.70	74.3000	
+Fastco	Room	135	16.64	83.3595	
+Pop Secret	Lounge	105	22.30	77.7000	
+Pop Secret	Lounge	105	27.46	72.5396	
+Pop Secret	Lounge	105	34.02	65.9810	
+Pop Secret	Lounge	105	27.44	72.5604	
+Pop Secret	Room	105	25.49	74.5098	
+Pop Secret	Room	105	19.17	80.8333	
+Pop Secret	Room	105	11.03	88.9696	
+Pop Secret	Room	105	29.56	70.4430	
+Pop Secret	Lounge	135	8.59	91.4104	
+Pop Secret	Lounge	135	16.22	83.7791	
+Pop Secret	Lounge	135	20.30	79.7000	
+Pop Secret	Lounge	135	9.95	90.0467	
+Pop Secret	Room	135	21.29	78.7096	
+Pop Secret	Room	135	9.44	90.5557	
+Pop Secret	Room	135	5.72	94.2780	
+Pop Secret	Room	135	17.10	82.9000	
+					

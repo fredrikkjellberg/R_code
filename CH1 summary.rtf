@@ -1,0 +1,84 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww23240\viewh11280\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\b\fs24 \cf0 Chapter Summary
+\b0 \
+This chapter desctibed the basic concepts behind randomization tests, permutation tests, bootstrap methods, and rank-based nonparametric tests. Parametric tests (such as z-tests, r-tests or F-tests) assume that data follow a known a probability distribution or use the central limit theorem to make inferences about a population.\
+NonparametJ\'b7ic tests do not require assumptions about the distribution of the population or the central hmit theorem in order to make inferences about a population.\
+The 
+\b null 
+\b0 hypothesis, denoted H\dn16 0\up0 , states that in a study nothing is creating group differences except the random allocation process. The research hypothesis is called the alternative hypothesis and is denoted Ha (or H \dn14 1\up0 ). The p-value is the likeJihood of observing a statistic at least as extreme as the one observed\
+from the sample data when the null hypothesis is tme. A threshold value, called a significance le''el, is denoted by the Greek letter alpha (a). When a study's p-value is less than or equal to this significance level, we state that the results are statistically significant at level 
+\i a . 
+\i0 Exact p -values are often difficult to calculate, but empirical p -values can often be simulated through a randomization or permutation test. The empirical p-value will become more precise as the number of randomizations within a simulation study m\up32 \'95 \up0 c r e a s e s .\
+The steps in a randomization test are as follows:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0\cf0 {\listtext	\'95	}An experiment is conducted in which unjts are assigned to a treatment and an observed sample statis- \uc0\u8232 tic is calculated (such as the difference between group means). \
+{\listtext	\'95	}Software 
+\i is 
+\i0 used to simulate the random allocation process a number oftimes 
+\i (N 
+\i0 iterations). \
+{\listtext	\'95	}For each iteration, the statistic of interest (difference between group means) is recorded, with 
+\i X 
+\i0 being the number of times the statistic in the iteration exceeds or is the same as the observed statistic in the actual experiment. \uc0\u8232 \'95 
+\i XIN 
+\i0 is computed to find the p -value, the proportion of times the statistic exceeds or is the same as the observed difference. \uc0\u8232 A permutation test is a more general fonn of the randomization test. The steps in both tests are identical, except that permutation tests do not require random allocation. Randomization tests and permutation tests can provide very accurate resu_lts. These tests are preferred over parametric methods when the sample size is small \u8232 or when there are outliers in a data set. Since real data sets tend not to come from exactly normal populations, it is important to recognize that even p-values from parametric tests are approxjmate (but typically accurate as long as the sample sizes are large enough, the data are not skewed, there are no outIiers, and the data are reasonably normal). A graph such as a boxplot or individual value plot should always be created to detennine ifparametric methods are appropriate. Randomization tests are gaining popularity because they require fewer \u8232 assumptions and are j ust as powerful as parametric tests.\u8232 Bootstrap methods take many (at least lOOO) resamples 
+\i with replacement 
+\i0 of the original sample to cre- \uc0\u8232 ate a bootstrap distribution. 
+\i lf 
+\i0 the bootstrap distribution is symmetric and unbiased. bootstrap 
+\i t 
+\i0 or bootstrap percentile confidence intervals can be used to approximate I00(1 - a)% confidence intervals. \uc0\u8232 The steps in creating bootstrap confidence intervals are as follows: \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls2\ilvl0\cf0 {\listtext	\'95	}One sample of size 
+\i n 
+\i0 is taken from a population and the statistic of interest is calculated. \
+{\listtext	\'95	}Software is used to take resamples (with replacement) ofsize 
+\i n 
+\i0 from the original sample a mm1ber of times 
+\i (N 
+\i0 iterations). For each iteration, the statistic of interest 
+\i is 
+\i0 calculated from the resample. \
+{\listtext	\'95	}The bootstrap distribution, which is the distribution ofall 
+\i N 
+\i0 resample statistics, is used to estimate the shape and spread ofthe sampling distribution. \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+\pard\pardeftab720
+\cf0 \'95 A bootstrap 
+\i t 
+\i0 confidence interval is found by calculating 
+\i x 
+\i0 + 
+\i t*(S*), 
+\i0 where S* is the standard deviation of the bootstrap distribution and 
+\i t* 
+\i0 is the critical value of the 
+\i t(n 
+\i0 - l) disn\'b7ibution with\
+100(1 - a)% ofthc area between -t* and 
+\i t*.\uc0\u8232 
+\i0 \'95 A 100(1 - a)% bootstrap percentile confidence interval is found by taking the 
+\i a 12 
+\i0 X J00\
+percentile of each tail of the bootstrap distribution.\uc0\u8232 Bootstrap confidence intervals based on small samples can be unreliable. The bootstrap 
+\i t 
+\i0 or percentile\
+confidence interval may be used if\uc0\u8232 \'95 the bootstrap distribution does not appear to be biased,\u8232 \'95 the bootstrap distribution appears to be nosmal, and\u8232 \'95 the bootstrap 
+\i t 
+\i0 and percentile confidence intervals are similar.\
+Simulation studies can easily be extended to testing other terms, such as the median or variance, whereas most parametric tests described in introductory statistics classes (such as the z-test and t-test) are restricted to testing for the mean. Simulation studies are an extremely useful tool that can fairly easily be used to calculate accurate p-values for research hypotheses when other tests are not appropriate.\
+Before computationally intensive techniques were easily available, rank-based nonparametric tests, such as the Wilcoxon rank sum test and the Kruskal-Wallis test, were commonly used. These tests do not require assumptions about distributions, but they tend to be less informative because ranks are used instead ofthe actual data. Both the Mann-Whitney test and the Kruskai-Wallis test assume that sample data are\
+from independent random samples whose distributions have the same shape and scale. Each sample in the Kmskal-Walljs test should consist of at Least five measurements. Rank-based nonparametric tests tend to be less powerful (less likely to identify differences between groups) than parametric tests (when assumptions do bold) and resampling methods. When the sample sizes are small and there are reasons to doubt the normality assumption, rank-based nonparametric tests are recommended over parametric tests. Randomization tests and permutation tests are typically preferred over parametric and rank-based tests. Theirp-values are often more\
+reliable, and they are more fle:x_ible in the choice of parameter tested.\uc0\u8232 One final note of caution: Even though it is possible to analyze the same data with a variety of paramet-\
+ric and nonparametric techniques, statisticians should never search around for a technique that provides the results they are looking for. Conducting multiple tests on the same data and choosing the test that provides the smallestp-value will cause the results to be unreliable. If possible, determine the type ofanalysis that wiiJ be conducted before the data are collected.\
+}
