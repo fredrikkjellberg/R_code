@@ -8,7 +8,6 @@ baboon.fix.order <- function(bdata) {
   bdata
 }
 
-
 # Since the data is 'clustered' by handler, we want shuffling to take
 # place across cluster. E.g, when shuffling, a given handler gets new
 # random rank, not each different interaction a handler had.
@@ -22,3 +21,15 @@ baboon.shuffle <- function(bdata) {
   bdata$Mother.Rank <- mothers$Mother.Rank[bdata$Infant]
   bdata
 }
+
+
+
+babsim <- fction(babdad, mask){
+  sbrb<-with(babdad)
+}
+
+# why do we have a matrix?
+
+
+
+with baboob
