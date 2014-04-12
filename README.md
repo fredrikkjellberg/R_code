@@ -1,7 +1,7 @@
 R_code
 ======
 
-code from my stats 403 class, this inlcudes, but not limited to; R code, functions, and examples of:
+code from my stats 403 class, this inlcudes, but not limited to; R code , unctions, sample data sets, and examples of:
 
 - large scale randomization tests
 
@@ -22,3 +22,4 @@ code from my stats 403 class, this inlcudes, but not limited to; R code, functio
 - Bayesian Data Analysis
 
 Stats_403_code
+[Data sets from class, internet, and beyond]
