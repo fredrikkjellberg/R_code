@@ -13,11 +13,11 @@
 
       |
       |
-4[ Shame~sex:trait ] 
+4[ Shame~sex+trait ] 
 # test interaction term
       |
       |
-5[ Shame~sex+trait] 
+5[ Shame~sex+trait+sex:trait] 
 # test each factor and interaction effect
 
 
