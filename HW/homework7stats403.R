@@ -51,6 +51,26 @@ tapply(count, loc, sd)
 500.6360/354.2147
 # 1.413369 < 2 which means it passes the informal test of variance
 
+:::::::::MODEL ANSWER:::::::
+  
+  We can look at the standard deviations in each of the groups defined by building by using the following:
+  
+  > with(bacteria,sd(count~bldg))
+
+ARH       Cowles       Dibble       Norris        Noyce Yellow House
+509.7478     302.6071     169.8439     116.2957     403.0095     262.1160
+
+The maximum standard deviation is about five times the minimum standard deviation here, so the informal check of variance fails. The ratio is approximately 510 / 116, which is much larger than 2.
+
+If by contrast we picked the location group, we get the following:
+  
+  > with(bacteria,sd(count~loc))
+Desk     Door   Faucet
+500.6360 354.2147 488.6509
+
+Here the informal equality of variances check is OK. The maximum over the minimum of the standard deviations is approximately 500 / 354 < 2.
+
+:::::END OF MODEL ANSWER:::::
 # 2. Perform a one-way ANOVA with the factor you chose at step 1, as well as a two way ANOVA using both factors 
 #    (but no interactions). (Code hint: for the two-way ANOVA you can do anova(lm(count~bldg+loc, data=bacteria)).) 
 #    Include the resulting anova tables in your answer, and interpret how they bear on the question of whether your 
