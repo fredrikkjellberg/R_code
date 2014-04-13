@@ -1,6 +1,35 @@
-Female-Trt	Female-Ctl	Male-Trt	Male-Ctl
-1	16	3	31
-2	10	5	26
-2	10	9	28
-10	7	10	13
-7	17	6	47
+age
+smoker.cases
+nonsmoker.cases
+smoker.controls
+nonsmoker.controls
+25-34
+1
+0
+46
+70
+35-44
+7
+2
+90
+109
+45-54
+32
+14
+109
+104
+55-64
+51
+25
+125
+117
+65-74
+24
+31
+62
+99
+75+
+7
+6
+18
+26
